@@ -428,13 +428,13 @@ NO MORE TABLES!! ;)
 }
 
 .main_text {
-	height: 17%;
+	height: 15%;
 	color: #302E2F;
 	text-align: left;
 }
 
 .book_stores_bar {
-	height: 8%;
+	height: 10%;
 	width: 100%;
 	background: gray;
 }
@@ -447,6 +447,12 @@ NO MORE TABLES!! ;)
 
 .book_store_image {
 	width: 120px;
+	height: 50px;
+}
+.available_text {
+	color: white;
+	font-family: 'Bebas Neue';
+	font-size: 20px;
 }
 
 .bebas {
@@ -474,6 +480,7 @@ NO MORE TABLES!! ;)
 	height: 80px;
 	background-color: #333;
 	color: white;
+	border-radius: 10px;
 }
 
 .full_height_container {
@@ -590,4 +597,28 @@ background: linear-gradient(to top right, rgba(117,117,117,1) 0%, rgba(51,51,51,
 	border-radius: 50%;
 	color: white;
 	font-size: 20px;
+}
+
+.youtube_bar {
+	position: relative;
+	height: 25%;
+	background: white;
+	padding-top: 8.33vh; 
+}
+
+.youtube_info_bar {
+	height: 8.33vh;
+	background: gray;
+}
+
+.youtube_logo_container {
+	position: absolute;
+	display: block;
+	top: 3vh;
+	left: 20vw;
+}
+
+.youtube_logo {
+	height: 19vh;
+	width: auto;
 }
