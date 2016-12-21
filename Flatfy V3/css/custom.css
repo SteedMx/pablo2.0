@@ -428,13 +428,11 @@ NO MORE TABLES!! ;)
 }
 
 .main_text {
-	height: 15%;
 	color: #302E2F;
 	text-align: left;
 }
 
 .book_stores_bar {
-	height: 10%;
 	width: 100%;
 	background: gray;
 }
@@ -470,8 +468,9 @@ NO MORE TABLES!! ;)
 	justify-content: center;
 }
 
-.pad_top {
-	padding-top: 50px;
+.pad_height {
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 }
 
 .black_btn {
@@ -601,24 +600,35 @@ background: linear-gradient(to top right, rgba(117,117,117,1) 0%, rgba(51,51,51,
 
 .youtube_bar {
 	position: relative;
-	height: 25%;
 	background: white;
-	padding-top: 8.33vh; 
 }
 
 .youtube_info_bar {
-	height: 8.33vh;
 	background: gray;
 }
 
 .youtube_logo_container {
-	position: absolute;
 	display: block;
-	top: 3vh;
-	left: 20vw;
+	width: 100%;
+	height: 100%;
+}
+
+.youtube_line {
+	position: absolute;
+	top: 70px;
+	height: 80px;
+	width: 100%;
+	background: gray;
 }
 
 .youtube_logo {
-	height: 19vh;
-	width: auto;
+	width: 100%;
+	height: auto;
+}
+
+.channel_text {
+	padding-top: 95px;
+	color: white;
+	font-family: 'Bebas Neue';
+	font-size: 24px;
 }
