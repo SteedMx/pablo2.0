@@ -437,7 +437,9 @@ NO MORE TABLES!! ;)
 	background: gray;
 }
 
-.book_stores_container {}
+.book_stores_container {
+    text-align: center;
+}
 
 .book_store_link {
     display:inline-block;
@@ -489,7 +491,7 @@ NO MORE TABLES!! ;)
 
 
 .book_cover {
-	height: 45vh;
+	height: 40vh;
 }
 
 .yellow_gradient {
@@ -629,6 +631,7 @@ background: linear-gradient(to top right, rgba(117,117,117,1) 0%, rgba(51,51,51,
     height: 75%;
     overflow: hidden;
     position: absolute;
+    background-attachment: scroll;
     z-index: 1;
 }
 .one {
