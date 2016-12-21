@@ -37,6 +37,9 @@
 		//font-size: 30px;
 	}
     
+    .channel_text {
+	padding-top: 0%;
+}
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
