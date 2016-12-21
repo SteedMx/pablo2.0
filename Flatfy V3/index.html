@@ -26,9 +26,10 @@
 
     <!-- Custom CSS-->
     <link href="css/general.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
     <!-- Owl-Carousel -->
-    <link href="css/custom.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -40,15 +41,15 @@
     <script src="js/modernizr-2.8.3.min.js"></script>
     <!-- Modernizr /-->
     <!--[if IE 9]>
-		<script src="js/PIE_IE9.js"></script>
-	<![endif]-->
+        <script src="js/PIE_IE9.js"></script>
+    <![endif]-->
     <!--[if lt IE 9]>
-		<script src="js/PIE_IE678.js"></script>
-	<![endif]-->
+        <script src="js/PIE_IE678.js"></script>
+    <![endif]-->
 
     <!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-	<![endif]-->
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 </head>
 
@@ -69,8 +70,8 @@
             <div class="one"></div>
             <div class="two"></div>
         </div>
-        <div class="col-xs-12 full_height_container align_center_vertically align_center_horizontally">
-            <img src="img/escobar-hijo-tapa-libro.png" alt="" class="book_cover">
+        <div class="col-xs-12 full_height_container align_center_vertically align_center_horizontally book_cover_container">
+            <img src="img/escobar-hijo-tapa-libro.png" alt="" class="book_cover"/>
         </div>
     </div>
     <div class="yellow_gradient main_text">
@@ -93,7 +94,7 @@
     <div class="book_stores_bar">
         <div class="row">
             <div class="col-sm-4 col-xs-1"></div>
-            <div class="col-sm-4 col-xs-10 pad_height">
+            <div class="col-sm-4 col-xs-10 pad_height book_stores">
                 <div class="book_stores_container">
                     <div class="available_text">Disponible en:</div>
                     <a href="" class="book_store_link">
@@ -132,12 +133,12 @@
             <div class="row">
                 <div class="col-xs-2"></div>
                 <div class="col-xs-8 text-center">
-                    <h2 class="bebas white_header">EDICIóN DE COLECCIóN</h2>
+                    <h2 class="bebas white_header special_edition-header">EDICIóN DE COLECCIóN</h2>
                 </div>
                 <div class="col-xs-2"></div>
             </div>
             <div class="row pad_height">
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-md-6 pad_height">
                     <div class="info_text">
                         Recibe una edición exclusiva de lujo solo para coleccionistas, disfruta con un delicioso café colombiano con tu libro autografiado por el autor Juan Pablo Escobar (Sebastian Marroquin) con un video especial dedicado solo para ti.
                     </div>
@@ -149,7 +150,7 @@
                     </div>
                 </div>
                 <div class="col-xs-1"></div>
-                <div class="col-xs-4 pad_height">
+                <div class="col-xs-12 col-md-4 pad_height">
                     <div class="form_container">
                         <div class="little_text">
                             Recibe una copia digital autografiada del libro Pablo Escobar IN FRAGANTI con un video exclusivo.
@@ -171,28 +172,16 @@
     <div>
         <div class="yellow_gradient">
             <div class="row">
-                <div class="col-xs-9"></div>
-                <div class="col-xs-2 social_icons_container">
+                <div class="col-xs-3 col-sm-9"></div>
+                <div class="col-xs-6 col-sm-2 social_icons_container">
                     <a href="#" class="icon_link"><i class="fa fa-facebook fa-size"> </i></a>
                     <a href="#" class="icon_link"><i class="fa fa-twitter fa-size"> </i></a>
                     <a href="#" class="icon_link"><i class="fa fa-youtube fa-size"> </i></a>
                 </div>
-                <div class="col-xs-1"></div>
+                <div class="col-xs-3"></div>
             </div>
         </div>
     </div>
-
-    <script>
-        var main = document.querySelector('.main');
-        var one = document.querySelector('.one');
-        var two = document.querySelector('.two');
-
-        main.onmousemove = function(e) {
-            var width = e.pageX - e.currentTarget.offsetLeft;
-            one.style.width = width + "px";
-            two.style.left = width + "px";
-        }
-    </script>
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
@@ -200,6 +189,19 @@
     <script src="js/script.js"></script>
     <!-- StikyMenu -->
     <script src="js/stickUp.min.js"></script>
+     <script>
+        if ($(window).width() > 900) {
+             var main = document.querySelector('.main');
+            var one = document.querySelector('.one');
+            var two = document.querySelector('.two');
+
+            main.onmousemove = function(e) {
+                var width = e.pageX - e.currentTarget.offsetLeft;
+                one.style.width = width + "px";
+                two.style.left = width + "px";
+            }
+        }
+    </script>
     <script type="text/javascript">
         jQuery(function($) {
             $(document).ready(function() {
