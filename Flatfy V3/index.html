@@ -62,6 +62,14 @@
     <div class="intro-header">
         <div class=" absolute-pos">
             <div class="inner-border">
+                <div class="row">
+                    <div class="col-xs-9"></div>
+                    <div class="col-xs-3 social_icons_container zindex">
+                        <a href="#" class="icon_link"><i class="fa fa-facebook fa-size"> </i></a>
+                        <a href="#" class="icon_link"><i class="fa fa-twitter fa-size"> </i></a>
+                        <a href="#" class="icon_link"><i class="fa fa-youtube fa-size"> </i></a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="main">
@@ -90,11 +98,10 @@
             </div>
         </div>
     </div>
-
     <div class="book_stores_bar">
         <div class="row">
-            <div class="col-sm-4 col-xs-1"></div>
-            <div class="col-sm-4 col-xs-10 pad_height book_stores">
+            <div class="col-sm-2 col-md-2 col-xs-1"></div>
+            <div class="col-sm-8 col-md-8 col-xs-10 pad_height book_stores">
                 <div class="book_stores_container">
                     <div class="available_text">Disponible en:</div>
                     <a href="" class="book_store_link">
@@ -108,27 +115,27 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-2 col-xs-1"></div>
+            <div class="col-sm-2 col-md-2 col-xs-1"></div>
         </div>
     </div>
     <div class="youtube_bar">
-        <div class="youtube_line"></div>
+        <!--<div class="youtube_line"></div>-->
         <div class="container">
             <div class="row youtube">
-                <div class="col-xs-4 hidden-sm hidden-md hidden-lg hidden-xl"></div>
+                <div class="col-xs-4 hidden-sm col-md-1 hidden-lg hidden-xl"></div>
                 <div class="col-xs-4 col-sm-3 pad_height">
                     <div class="youtube_logo_container">
                         <img src="img/youtube_logo.png" alt="" class="youtube_logo">
                     </div>
                 </div>
-                <div class="col-xs-4 col-sm-2"></div>
-                <div class="col-xs-12 col-sm-6 text-center channel_text">
+                <div class="col-xs-4 col-sm-2 col-md-1"></div>
+                <div class="col-xs-12 col-sm-7 text-center channel_text">
                     CONOCE EL CANAL DE YOUTUBE
                 </div>
             </div>
         </div>
     </div>
-    <div class=" black_gradient form_section edicioncoleccion">
+    <div class=" black_gradient  edicioncoleccion">
         <div class="container pad_height">
             <div class="row">
                 <div class="col-xs-2"></div>
@@ -163,17 +170,13 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-xs-1"></div>
             </div>
         </div>
-
-    </div>
-
     <div>
         <div class="yellow_gradient">
             <div class="row">
                 <div class="col-xs-3 col-sm-9"></div>
-                <div class="col-xs-6 col-sm-2 social_icons_container">
+                <div class="col-xs-6 col-sm-2 social_icons_container flex_center">
                     <a href="#" class="icon_link"><i class="fa fa-facebook fa-size"> </i></a>
                     <a href="#" class="icon_link"><i class="fa fa-twitter fa-size"> </i></a>
                     <a href="#" class="icon_link"><i class="fa fa-youtube fa-size"> </i></a>
@@ -189,8 +192,8 @@
     <script src="js/script.js"></script>
     <!-- StikyMenu -->
     <script src="js/stickUp.min.js"></script>
-     <script>
-        if ($(window).width() > 900) {
+    <script>
+        /*if ($(window).width() > 900) {
              var main = document.querySelector('.main');
             var one = document.querySelector('.one');
             var two = document.querySelector('.two');
@@ -200,14 +203,13 @@
                 one.style.width = width + "px";
                 two.style.left = width + "px";
             }
-        }
+        }*/
     </script>
     <script type="text/javascript">
         jQuery(function($) {
             $(document).ready(function() {
                 $('.navbar-default').stickUp();
-
-            });
+            }
         });
     </script>
     <!-- Smoothscroll -->
@@ -216,6 +218,7 @@
     <script>
         new WOW().init(); <
         script src = "js/classie.js" >
+
     </script>
     <script src="js/uiMorphingButton_inflow.js"></script>
     <!-- Magnific Popup core JS file -->

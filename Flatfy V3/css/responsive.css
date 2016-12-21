@@ -1,6 +1,10 @@
-@media all and (max-width: 767px) {
+@media all and (max-width: 500px) {
 	.intro-header {
 		height: 55%;
+		background: url(../img/back_stone.png)
+	}
+	.inner-border {
+		border-radius: 20px;
 	}
 	.main {
 		height: 0;
@@ -8,19 +12,19 @@
 	.absolute-pos {
 		width: 88%;
 		height: 50%;
-		margin: -6% 1% 1% 6%;
+		margin: -10% 1% 1% 6%;
 	}
-	.book_cover_container {
-		//height: 50%;
+	.book_cover {
+		border-radius: 20px;
 	}
 	div.book_stores {
 		margin-bottom: 0;
 	}
 	.book_store_link {
-		width: 45%;
+		//width: 45%;
 	}
-	.channel_text {
-		padding-top: 10px;
+	.youtube_logo_container {
+		padding-top: 10%;
 	}
 	.special_edition-header {
 		font-size: 50px;
@@ -29,6 +33,30 @@
 		font-size: 16px;
 	}
 	.icon_link {
-		font-size: 30px;
+		//font-size: 30px;
+	}
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.channel_text {
+		padding-top: 40px;
+	}
+}
+
+@media all and (orientation: landscape) {
+	.intro-header {
+		padding-top: 0;
+		padding-bottom: 0;
+		height: 75%;
+		background: url(../img/back_stone.png)
+	}
+	div.book_stores {
+		margin-bottom: 0;
+	}
+}
+
+@media screen all and (orientation: landscape) and (max-width: 760) {
+	.channel_text {
+		padding-top: 0; 
 	}
 }

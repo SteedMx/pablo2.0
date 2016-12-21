@@ -532,12 +532,7 @@ background: linear-gradient(to top right, rgba(117,117,117,1) 0%, rgba(51,51,51,
 	margin-top: 30px;
 }
 
-.form_section {
-	position: relative;
-	background: url(../img/carapablo.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+
 
 .contact_form {
 
@@ -579,18 +574,19 @@ background: linear-gradient(to top right, rgba(117,117,117,1) 0%, rgba(51,51,51,
 
 
 .social_icons_container {
-
     margin: 10px 0px 10px 0px;
 }
 
+.flex_center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .icon_link {
-
-
-
-	color:#212121;
-	font-size: 50px;
+	color:#fff;
+	font-size: 30px;
     margin: 10px
-
 }
 
 .youtube_bar {
@@ -622,8 +618,8 @@ background: linear-gradient(to top right, rgba(117,117,117,1) 0%, rgba(51,51,51,
 }
 
 .channel_text {
-	padding-top: 80px;
-	color: white;
+	padding-top: 7%;
+	color: #212121;
 	font-family: 'Bebas Neue';
 	font-size: 40px;
 }
@@ -662,7 +658,7 @@ background: linear-gradient(to top right, rgba(117,117,117,1) 0%, rgba(51,51,51,
 position:absolute;
     z-index:2;
     bottom: 5%;
-    left: 20px;
+    left: 3%;
         height:auto;
     width: 35%
 
@@ -672,7 +668,7 @@ position:absolute;
     position:absolute;
     z-index:2;
     bottom: 3%;
-    right: 20px;
+    right: 3%;
         height:auto;
     width:50%
     
@@ -702,6 +698,28 @@ position:absolute;
 .absolute-pos {
         position: absolute;
    width: 98%;
-    height: 73%;
+    height: 71%;
 margin: 1% 1% 1% 1%;
+}
+.absolute-pos2 {
+        position: absolute;
+   width: 100%;
+    height: 100px;
+}
+
+.edicioncoleccion {
+    background:url(../img/coche_escobar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.zindex {
+    z-index:10;
+}
+
+.absolute-rel2 {
+    position: relative;
+    width:100%;
+    height: 100%;
+    bottom: 
 }
