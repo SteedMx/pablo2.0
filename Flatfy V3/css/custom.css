@@ -428,13 +428,11 @@ NO MORE TABLES!! ;)
 }
 
 .main_text {
-	height: 15%;
 	color: #302E2F;
 	text-align: left;
 }
 
 .book_stores_bar {
-	height: 10%;
 	width: 100%;
 	background: gray;
 }
@@ -442,17 +440,21 @@ NO MORE TABLES!! ;)
 .book_stores_container {}
 
 .book_store_link {
+    display:inline-block;
+    width: 30%
 
 }
 
 .book_store_image {
-	width: 120px;
-	height: 50px;
+	display:inline-block;
+    width:100%;
+    height:auto;
 }
 .available_text {
 	color: white;
 	font-family: 'Bebas Neue';
-	font-size: 20px;
+	font-size: 35px;
+    text-align: center;
 }
 
 .bebas {
@@ -470,8 +472,9 @@ NO MORE TABLES!! ;)
 	justify-content: center;
 }
 
-.pad_top {
-	padding-top: 50px;
+.pad_height {
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .black_btn {
@@ -481,11 +484,10 @@ NO MORE TABLES!! ;)
 	background-color: #333;
 	color: white;
 	border-radius: 10px;
+    text-decoration: none;
 }
 
-.full_height_container {
-	height: 100%;
-}
+
 .book_cover {
 	height: 45vh;
 }
@@ -574,53 +576,56 @@ background: linear-gradient(to top right, rgba(117,117,117,1) 0%, rgba(51,51,51,
   color: #333;
 }
 
-.social_icons_bar {
-	height: 10vh;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-}
+
 
 .social_icons_container {
-	display: flex;
-	justify-content: space-around;
+
+    margin: 10px 0px 10px 0px;
 }
 
 .icon_link {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 3px solid white;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	color: white;
-	font-size: 20px;
+
+
+
+	color:#212121;
+	font-size: 50px;
+    margin: 10px
+
 }
 
 .youtube_bar {
 	position: relative;
-	height: 25%;
 	background: white;
-	padding-top: 8.33vh; 
 }
 
 .youtube_info_bar {
-	height: 8.33vh;
 	background: gray;
 }
 
 .youtube_logo_container {
-	position: absolute;
 	display: block;
-	top: 3vh;
-	left: 20vw;
+	width: 100%;
+	height: 100%;
+}
+
+.youtube_line {
+	position: absolute;
+	top: 70px;
+	height: 80px;
+	width: 100%;
+	background: #212121;
 }
 
 .youtube_logo {
-	height: 19vh;
-	width: auto;
+	width: 100%;
+	height: auto;
+}
+
+.channel_text {
+	padding-top: 80px;
+	color: white;
+	font-family: 'Bebas Neue';
+	font-size: 40px;
 }
 
 .main {
@@ -656,7 +661,7 @@ background: linear-gradient(to top right, rgba(117,117,117,1) 0%, rgba(51,51,51,
 .titulo_izquierda {
 position:absolute;
     z-index:2;
-    bottom: 20px;
+    bottom: 5%;
     left: 20px;
         height:auto;
     width: 35%
@@ -666,9 +671,37 @@ position:absolute;
 .titulo_derecha {
     position:absolute;
     z-index:2;
-    bottom: 20px;
+    bottom: 3%;
     right: 20px;
         height:auto;
     width:50%
     
+}
+
+.full_height_container {
+    height:100%;
+}
+
+.margin-bottom {
+    margin-bottom:1000px
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+
+
+.inner-border {
+    border: 2px solid #fff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.absolute-pos {
+        position: absolute;
+   width: 98%;
+    height: 73%;
+margin: 1% 1% 1% 1%;
 }
