@@ -243,15 +243,10 @@ color: #ECEBEB;
 
 .intro-header {
 	height: 75%; /* Full PAge */
-	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-	padding-bottom: 50px;
-	color: #f8f8f8;
-	background: url(../img/pabloescobar_mitad.png) no-repeat center right,
-		url(../img/sebasmarroquin_mitad.png) no-repeat center left,
-		url(../img/intro/intro5.jpg) no-repeat center center;
+	background-color: #212121;
 
-	background-size: auto 100%, auto 100%, cover;
 	text-align: center;
+    background-size: cover;
 }
 
 .intro-message {
