@@ -117,7 +117,7 @@ filter: alpha(opacity=95) !important;
 	left:0;
 	right:0;
 	bottom:0;
-	background-color:#fff; /* change if the mask should have another color then white */
+	background-color:#000; /* change if the mask should have another color then white */
 	z-index:99; /* makes sure it stays on top */
 }
 
