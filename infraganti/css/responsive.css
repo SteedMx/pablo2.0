@@ -79,10 +79,10 @@
         display: none
     }
     .intro-header {
-        background: url(../img/mitades_escobar.png), url(../img/back_stone.png);
+        background: url(../img/escobar-hijo-tapa-libro.png), url(../img/back_stone.png);
         background-attachment: scroll;
         background-position: center;
-        background-size: auto 100%, 100% auto;
+        background-size: auto 75%, 100% auto;
         background-repeat: no-repeat;
     }
 }
