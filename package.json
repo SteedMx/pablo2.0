@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/pabloescobar"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
