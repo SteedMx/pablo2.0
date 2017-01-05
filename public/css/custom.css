@@ -435,28 +435,29 @@ NO MORE TABLES!! ;)
 .book_stores_bar {
 	width: 100%;
 	background: gray;
+  padding: 30px 0 30px 0;
 }
 
 .book_stores_container {
-    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .book_store_link {
-    display:inline-block;
-    width: 30%
-
+    text-align: center;
 }
 
 .book_store_image {
-	display:inline-block;
-    width:100%;
-    height:auto;
+    display:inline-block;
+    height:70px;
 }
 .available_text {
 	color: white;
 	font-family: 'Bebas Neue';
 	font-size: 35px;
-    text-align: center;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .bebas {
@@ -610,6 +611,11 @@ input[type="email"]:-ms-input-placeholder {
 .youtube_bar {
 	position: relative;
 	background: white;
+  padding: 30px 0 0 0;
+}
+
+.youtube {
+  text-align: center;
 }
 
 .youtube_info_bar {
@@ -618,8 +624,9 @@ input[type="email"]:-ms-input-placeholder {
 
 .youtube_logo_container {
 	display: block;
-	width: 100%;
-	height: 100%;
+	width: 10vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .youtube_line {
@@ -636,7 +643,6 @@ input[type="email"]:-ms-input-placeholder {
 }
 
 .channel_text {
-	padding-top: 8%;
 	color: #212121;
 	font-family: 'Bebas Neue';
 	font-size: 45px;
