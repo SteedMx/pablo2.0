@@ -25,7 +25,6 @@
         //width: 45%;
     }
     .youtube_logo_container {
-        padding-top: 10%;
     }
     .special_edition-header {
         font-size: 50px;
@@ -43,7 +42,6 @@
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
     .channel_text {
-        padding-top: 40px;
     }
 }
 
@@ -60,7 +58,28 @@
     }
 }
 
+@media all and (min-width: 768px) and (max-width: 892px) {
+    .book_store_image {
+        height: auto;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (orientation: portrait) and (max-width: 767px) {
+    .book_store_image {
+        height: auto;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+}
+
 @media all and (orientation: landscape) and (max-width: 767px) {
+    .book_store_image {
+        height: auto;
+        width: 50%;
+        margin-bottom: 15px;
+    }
     .channel_text {
         padding-top: 0;
     }

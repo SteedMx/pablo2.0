@@ -452,6 +452,9 @@ NO MORE TABLES!! ;)
     display:inline-block;
     height:70px;
 }
+.amazon_store_image {
+    border-radius: 5px;
+}
 .available_text {
 	color: white;
 	font-family: 'Bebas Neue';
@@ -490,9 +493,18 @@ NO MORE TABLES!! ;)
     text-decoration: none;
 }
 
+.black_btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.black_btn:focus {
+  color: #fff;
+  text-decoration: none;
+}
 
 .book_cover {
-	height: 50vh;
+	height: 45vh;
 }
 
 .yellow_gradient {
@@ -611,7 +623,7 @@ input[type="email"]:-ms-input-placeholder {
 .youtube_bar {
 	position: relative;
 	background: white;
-  padding: 30px 0 0 0;
+  padding: 30px 0;
 }
 
 .youtube {
@@ -624,9 +636,7 @@ input[type="email"]:-ms-input-placeholder {
 
 .youtube_logo_container {
 	display: block;
-	width: 10vw;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 15px;
 }
 
 .youtube_line {
