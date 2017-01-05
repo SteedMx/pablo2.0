@@ -40,29 +40,26 @@ block content
         .col-md-1
   .book_stores_bar
     .row
-      .col-sm-3.col-md-3.col-xs-1
-      .col-sm-8.col-md-6.col-xs-10.pad_height.book_stores
-        .book_stores_container
-          .available_text Disponible en:
-          a.book_store_link(href='')
-            img.book_store_image(src='img/boton_appstore.png', alt='')
-          a.book_store_link(href='')
-            img.book_store_image(src='img/boton_amazon.png', alt='')
-          a.book_store_link(href='')
-            img.book_store_image(src='img/botton_google.png', alt='')
-      .col-sm-2.col-md-2.col-xs-1
+      .available_text Disponible en:
+      .row.book_stores_container
+        .col-md-4.book_store_link
+          a(href='')
+            img.book_store_image(src='img/boton_ibooks.svg', alt='Descárgalo en iBooks')
+        .col-md-4.book_store_link
+          a(href='https://www.amazon.es/Pablo-Escobar-fraganti-Juan-ebook/dp/B01N40MZCJ')
+            img.book_store_image(src='img/boton_amazon.png', alt='Descárgalo en Amazon')
+        .col-md-4.book_store_link
+          a(href='')
+            img.book_store_image(src='img/botton_google.png', alt='Descárgalo en Google Play')
   .youtube_bar
-    // <div class="youtube_line"></div>
     .container
-      .row.youtube
-        .col-xs-4.col-md-2.col-sm-1.hidden-lg
-        .col-xs-4.col-sm-3.pad_height
-          .youtube_logo_container
+      .youtube
+        .youtube_logo_container
+          a(href='https://www.youtube.com/channel/UC8bGCUWTnua4R1fE3Ci8E1w')
             img.youtube_logo(src='img/youtube_logo.png', alt='')
-        .col-xs-4.col-sm-2.col-md-1
-        .col-xs-12.col-sm-7.text-center.channel_text
+        .channel_text
           | CONOCE EL CANAL DE YOUTUBE
-  .black_gradient.edicioncoleccion
+  .black_gradient#edicioncoleccion
     .container.pad_height
       .row
         .col-xs-2
@@ -83,9 +80,9 @@ block content
             .little_text
               | Recibe una copia digital autografiada del libro Pablo Escobar IN FRAGANTI con un video exclusivo.
             form.contact_form(action='/', name='escobarform', id='escobarform', method='post')
-              input(name='names', type='text', placeholder='Nombre', id='names')
-              input(name='lastnames', type='text', placeholder='Apellido', id='lastnames')
-              input(name='email', type='email', placeholder='Correo electrónico', id='email')
+              input(name='names', type='text', placeholder='Nombre', id='names', required)
+              input(name='lastnames', type='text', placeholder='Apellido', id='lastnames', required)
+              input(name='email', type='email', placeholder='Correo electrónico', id='email', required)
               input.black_btn.bebas.align_center_vertically.submit_button(name='submit', type='submit', value='ENVIAR', id='submit')
     div
       .yellow_gradient
