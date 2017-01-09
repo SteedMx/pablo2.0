@@ -3,8 +3,8 @@ extends layout
 block content
 
   // Preloader
-  #preloader
-    #status
+    #preloader
+      #status
   // FullScreen
   .intro-header
     .absolute-pos
@@ -26,12 +26,12 @@ block content
       .one
       .two
     .col-xs-12.full_height_container.align_center_vertically.align_center_horizontally.book_cover_container
-      img.book_cover(src='img/escobar-hijo-tapa-libro.png', alt='')
+      img.hvr-bob.book_cover(src='img/escobar-hijo-tapa-libro.png', alt='')
   .yellow_gradient.main_text
     .container
       .row
         .col-md-4.col-xs-12.pad_height.margin-top
-          a.black_btn.bebas.align_center_vertically(href='#edicioncoleccion')
+          a.hvr-grow-shadow.black_btn.bebas.align_center_vertically(href='#edicioncoleccion')
             | Ordena la edición de colección
         .col-md-1.pad_height
         .col-md-6.col-xs-12.pad_height
@@ -44,13 +44,13 @@ block content
       .row.book_stores_container
         .col-md-4.book_store_link
           a(href='')
-            img.book_store_image(src='img/boton_ibooks.svg', alt='Descárgalo en iBooks')
+            img.hvr-grow-shadow.book_store_image(src='img/boton_ibooks.svg', alt='Descárgalo en iBooks')
         .col-md-4.book_store_link
           a(href='https://play.google.com/store/books/details/Juan_Pablo_Escobar_Pablo_Escobar_in_fraganti?id=xGt_DQAAQBAJ&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1')
-            img.book_store_image(alt='Descárgalo en Google Play', src='img/google-play-badge.png')
+            img.hvr-grow-shadow.book_store_image(alt='Descárgalo en Google Play', src='img/google-play-badge.png')
         .col-md-4.book_store_link
           a(href='https://www.amazon.es/Pablo-Escobar-fraganti-Juan-ebook/dp/B01N40MZCJ')
-            img.book_store_image.amazon_store_image(src='img/amazon_logo_RGB.jpg', alt='Descárgalo en Amazon')
+            img.hvr-grow-shadow.book_store_image.amazon_store_image(src='img/amazon_logo_RGB.jpg', alt='Descárgalo en Amazon')
 
   .youtube_bar
     .container
