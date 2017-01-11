@@ -440,8 +440,8 @@ NO MORE TABLES!! ;)
 
 .book_stores_container {
     max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 .book_store_link {

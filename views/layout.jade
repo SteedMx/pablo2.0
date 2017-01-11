@@ -6,15 +6,17 @@ html
     meta(name='description', content='Pablo Escobar In Fraganti')
     meta(name='author', content='')
     title Pablo Escobar – In Fraganti
-    // Bootstrap core CSS
-    link(href='css/bootstrap.min.css', rel='stylesheet')
-    // Custom Google Web Font
-    link(href='font-awesome/css/font-awesome.min.css', rel='stylesheet')
-    link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic', rel='stylesheet', type='text/css')
-    link(href='http://fonts.googleapis.com/css?family=Arvo:400,700', rel='stylesheet', type='text/css')
-    // Custom CSS
-    link(href='css/general.css', rel='stylesheet')
-    link(href='css/custom.css', rel='stylesheet')
+    noscript
+      // Bootstrap core CSS
+      link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', rel='stylesheet')
+      // Custom Google Web Font
+      link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic', rel='stylesheet', type='text/css')
+      link(href='http://fonts.googleapis.com/css?family=Arvo:400,700', rel='stylesheet', type='text/css')
+      // Font Awesome
+      link(href='font-awesome/css/font-awesome.min.css', rel='stylesheet')
+      // Custom CSS
+      link(href='css/general.css', rel='stylesheet')
+      link(href='css/custom.css', rel='stylesheet')
     link(href='css/hover.css', rel='stylesheet')
     link(href='css/responsive.css', rel='stylesheet')
     // Owl-Carousel
@@ -38,9 +40,57 @@ html
     block content
 
     // JavaScript
-    script(src='js/jquery-1.10.2.js')
-    script(src='js/bootstrap.js')
+    script(src='https://code.jquery.com/jquery-1.10.2.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
     script(src='js/script.js')
+    script.
+      /* Bootstrap CSS File */
+      var giftofspeed = document.createElement('link');
+      giftofspeed.rel = 'stylesheet';
+      giftofspeed.href = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+      giftofspeed.type = 'text/css';
+      var godefer = document.getElementsByTagName('link')[0];
+      godefer.parentNode.insertBefore(giftofspeed, godefer);
+    script.
+      /* Lato font CSS File */
+      var giftofspeed = document.createElement('link');
+      giftofspeed.rel = 'stylesheet';
+      giftofspeed.href = 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic';
+      giftofspeed.type = 'text/css';
+      var godefer = document.getElementsByTagName('link')[0];
+      godefer.parentNode.insertBefore(giftofspeed, godefer);
+    script.
+      /* Arvo font CSS File */
+      var giftofspeed = document.createElement('link');
+      giftofspeed.rel = 'stylesheet';
+      giftofspeed.href = 'http://fonts.googleapis.com/css?family=Arvo:400,700';
+      giftofspeed.type = 'text/css';
+      var godefer = document.getElementsByTagName('link')[0];
+      godefer.parentNode.insertBefore(giftofspeed, godefer);
+    script.
+      /* Font Awesome CSS File */
+      var giftofspeed = document.createElement('link');
+      giftofspeed.rel = 'stylesheet';
+      giftofspeed.href = 'font-awesome/css/font-awesome.min.css';
+      giftofspeed.type = 'text/css';
+      var godefer = document.getElementsByTagName('link')[0];
+      godefer.parentNode.insertBefore(giftofspeed, godefer);
+    script.
+      /* Our custom CSS Files */
+      var giftofspeed = document.createElement('link');
+      giftofspeed.rel = 'stylesheet';
+      giftofspeed.href = 'css/general.css';
+      giftofspeed.type = 'text/css';
+      var godefer = document.getElementsByTagName('link')[0];
+      godefer.parentNode.insertBefore(giftofspeed, godefer);
+    script.
+      /* Our custom CSS Files */
+      var giftofspeed = document.createElement('link');
+      giftofspeed.rel = 'stylesheet';
+      giftofspeed.href = 'css/custom.css';
+      giftofspeed.type = 'text/css';
+      var godefer = document.getElementsByTagName('link')[0];
+      godefer.parentNode.insertBefore(giftofspeed, godefer);
 
     // StikyMenu
       script(src='js/stickUp.min.js')
